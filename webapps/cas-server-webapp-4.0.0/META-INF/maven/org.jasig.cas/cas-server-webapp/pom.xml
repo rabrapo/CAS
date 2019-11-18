@@ -54,6 +54,13 @@
       <type>jar</type>
       <scope>runtime</scope>
     </dependency>
+    <!-- NUEVO
+    <dependency>
+      <groupId>org.jasig.cas</groupId>
+      <artifactId>cas-server-support-ldap</artifactId>
+      <version>${cas.version}</version>
+    </dependency>
+    Fin NUEVO -->
   </dependencies>
 
   <build>
@@ -82,4 +89,3 @@
     <cs.dir>${project.parent.basedir}</cs.dir>
   </properties>
 </project>
-
